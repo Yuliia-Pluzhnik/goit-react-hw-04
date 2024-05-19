@@ -1,0 +1,39 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+  }
+  
+  .modalContent img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .closeBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .closeBtn:hover {
+    background-color: #005bb5;
+  }
+  
